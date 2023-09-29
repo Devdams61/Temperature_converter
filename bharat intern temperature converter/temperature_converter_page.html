@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <span class="Temperature-icon"><i class="fas fa-temperature-high"></i></span>
+            Temperature Converter
+        </h1>
+        <div class="input-container">
+            <label for="celsius">Enter Temperature in Celsius:</label>
+            <input type="number" id="celsius" placeholder="Celsius">
+            <button id="convertButton">Convert</button>
+        </div>
+        <div class="result-container">
+            <p>Result:</p>
+            <p id="result">-</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
